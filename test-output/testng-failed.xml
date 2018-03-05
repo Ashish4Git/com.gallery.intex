@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.gallery.intex by packages]">
+  <test name="com.gallery.intex.testcases(failed)">
+    <classes>
+      <class name="com.gallery.intex.testcases.TestSetup">
+        <methods>
+          <include name="TestSetup"/>
+        </methods>
+      </class> <!-- com.gallery.intex.testcases.TestSetup -->
+      <class name="com.gallery.intex.testcases.EnterTheGallery">
+        <methods>
+          <include name="menuOptions"/>
+        </methods>
+      </class> <!-- com.gallery.intex.testcases.EnterTheGallery -->
+    </classes>
+  </test> <!-- com.gallery.intex.testcases(failed) -->
+</suite> <!-- Failed suite [com.gallery.intex by packages] -->
